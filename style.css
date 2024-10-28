@@ -12,5 +12,17 @@ height:50px;
     height: 60%;
 
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container-col {
+    bortder: 2px solid black;
+    width: 80%;
+    height:60%;
+
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
 }
